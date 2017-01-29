@@ -86,4 +86,14 @@ listadoCelulares = [
 			"memoria_interna": "16 GB",
 			"flash": true
 		}
-	]
+	];
+
+
+function agregarElementos() {
+	var p = document.createElement("p");
+	p.id = "nuevo";
+	var t = document.createTextNode("Esto lo insertamos dinámicamente");
+	p.appendChild(t);
+	var div = document.getElementById("nuevosElementos");
+	div.appendChild(p);
+}
