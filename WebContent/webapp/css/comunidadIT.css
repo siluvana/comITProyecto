@@ -1,0 +1,94 @@
+body {
+	font-family: Arial, Helvetica, 'Nimbus Sans L', sans-serif;
+	font-size: 13px;
+	color:lightgrey;
+	background: url("../img/fondofibracarbono.png") no-repeat fixed center;	
+}
+
+#mensaje {
+	/*display: none;*/
+	visibility: hidden;
+	width: 0;
+	height: 0;
+}
+
+#celularCuadrante1{
+	float:left;
+}
+
+#celularCuadrante2{
+	float:right;
+}
+#CelularCuadrante3{
+	float:left;
+}
+#CelularCuadrante4{
+	float:right;
+}
+#CelularCuadrante5{
+	float:left;
+}
+
+h1{
+	color: lightgrey;
+	font-size: 50px;
+ 	background: -webkit-linear-gradient(white, green);
+ 	-webkit-background-clip: text;
+	 -webkit-text-fill-color: transparent;
+}
+
+input{
+	-webkit-border-radius: 7px;
+	-moz-border-radius: 7px;
+	border-radius: 7px;
+	box-shadow: 0px 0px 20px pink;
+}
+
+input:focus{
+	box-shadow: 0px 0px 25px lightblue;
+	background: #1de2c5;
+	color:#8000ff;
+}
+
+
+#tablaCelular1 > tbody > tr  > td {
+	border:1px solid;
+	border-collapse:collapse;
+		/* posición del divisor 1 */
+	
+
+}
+
+body > div:nth-child(1){
+	text-align:center;	/* posición de las letras del primer divisor*/
+}
+
+#Comentarios{
+	-webkit-border-radius: 7px;
+	-moz-border-radius: 7px;
+	border-radius: 7px;
+}
+
+a:link{
+	color:green;
+}
+
+a:visited{
+	color:#ff00ff;
+}
+
+hr{
+	border:none;
+  	height: 20px;
+ 	width: 90%;
+	height: 50px;
+	margin-top: 0;
+	border-bottom: 1px solid #80ff00;
+	box-shadow: 0 20px 20px -20px #00ff00;
+  margin: -50px auto 10px; 
+}
+
+
+
+
+
