@@ -1,6 +1,13 @@
 body {
+	background-image: url("https://ubuntualways.files.wordpress.com/2013/01/pedras.jpg");
+	background-size: cover;
+	background-repeat: no-repeat;
 	font-family: Arial, Helvetica, 'Nimbus Sans L', sans-serif;
 	font-size: 13px;
+}
+
+*{
+	border: 1px, solid, rgba(0, 0, 0, 0.3);
 }
 
 #mensaje {
@@ -9,3 +16,34 @@ body {
 	width: 0;
 	height: 0;
 }
+
+
+#samsung{
+	height: 100px;
+	border-style: solid;
+	overflow: hidden;
+	border-radius: 10px;
+	width: 400px;
+}
+
+#motorola{
+	border-style: solid;
+	height: 75px;
+	border-radius: 10px;
+	overflow: hidden;
+	width: 250px;
+	position: relative;
+	left: 450px;
+	bottom: 100px;
+}
+
+#iphone{
+	border-style: solid;
+	border-radius: 100px;
+	height: 100px;
+    width: 300px;
+    overflow: hidden;
+    position: relative;
+    bottom: 50px;
+}
+
