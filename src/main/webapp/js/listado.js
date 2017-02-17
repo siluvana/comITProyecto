@@ -117,9 +117,9 @@ function agregarElementos() {
 		//opcion 2: generar dos nodos de texto con la caracteristica y el valor por separado
 		var opcion2 = document.createElement("li");
 		var caracteristica = document.createTextNode("Marca: ");
-		p.appendChild(caracteristica);
+		opcion2.appendChild(caracteristica);
 		var valorCaracteristica = document.createTextNode(listadoCelulares[cont].marca);
-		
+		opcion2.appendChild(valorCaracteristica);
 		var div = document.getElementById("nuevosElementos");
 		div.appendChild(opcion2);
 		
