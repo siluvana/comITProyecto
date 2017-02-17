@@ -90,10 +90,39 @@ listadoCelulares = [
 
 
 function agregarElementos() {
-	var p = document.createElement("p");
-	p.id = "nuevo";
-	var t = document.createTextNode("Esto lo insertamos dinámicamente");
-	p.appendChild(t);
-	var div = document.getElementById("nuevosElementos");
-	div.appendChild(p);
-}
+//	var p = document.createElement("p");
+//	p.id = "nuevo";
+//	var t = document.createTextNode(listadoCelulares[0].marca);
+//	p.appendChild(t);
+//	var t = document.createTextNode("");
+//	p.appendChild(t);
+//
+//	var t = document.createTextNode(listadoCelulares[0].modelo);
+//	p.appendChild(t);
+//	var t = document.createTextNode(listadoCelulares[0].sistema_operativo);
+//	p.appendChild(t);
+//
+//	var div = document.getElementById("nuevosElementos");
+//	div.appendChild(p);
+	
+	for(var cont = 0; cont < listadoCelulares.length; cont++) {
+		var p = document.createElement("li");
+		//opcion 1: generar el texto en una variable y ponerla en el nodo de texto
+		var texto = "Marca: " + listadoCelulares[cont].marca;
+		var valor = document.createTextNode(texto);
+		p.appendChild(valor);
+		var div = document.getElementById("nuevosElementos");
+		div.appendChild(p);
+
+		//opcion 2: generar dos nodos de texto con la caracteristica y el valor por separado
+		var opcion2 = document.createElement("li");
+		var caracteristica = document.createTextNode("Marca: ");
+		p.appendChild(caracteristica);
+		var valorCaracteristica = document.createTextNode(listadoCelulares[cont].marca);
+		
+		var div = document.getElementById("nuevosElementos");
+		div.appendChild(opcion2);
+		
+		
+	}
+}  
