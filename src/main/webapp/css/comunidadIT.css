@@ -19,7 +19,7 @@ h1{
   font-size:36px;
   vertical-align: middle;
   border-radius: 50%;
-  background: #e9d4b3;
+  background: #e9d4b3, #91e842;
   position: relative;
   left: 370px;
   top: 200px;
@@ -89,7 +89,5 @@ img.achicar{
 	left: 300px;
 }
 
-#we{
-	background-position: center top;
-	text-align: center;
+
 }
