@@ -144,14 +144,18 @@
 					<input type="button" onclick="agregarElementos()" title="Al presionar este botón se ejecutará el método indicado en onclick" value="Agregar elementos"></input><br>
 					<br>
 					 -->
-		<div id="contenedorMaestroIngreso">
+	<div id="MostrarOcultar">
+		<hr>
 					 
 			<span>Puede ocultar el panel de ingreso.</span>	
 				 
 				<input type="button" value="Ocultar" onclick="ocultarIngresar()">
 				<input type="button" value="Mostrar" onclick="mostrarIngresar()">
+			<br>
+			<br>
 			
 			
+
 					<div id="ingresar">
 						<h2>Por favor ingrese para continuar:</h2>
 							 <form action="ServletIngresar.jsp" method="post">
@@ -185,26 +189,25 @@
 							 	</form>
 							<br>
 						 <a href="paginas/lista.html">Ir al listado de celulares salteando el paso anterior</a>
-						
-							<br>
-					  		<br>	
-									<ul id="ListadoTotal">Acá va a aparecer Todos los datos juntos puestos por un for</ul>
-					  
-					  		<input type="button" onClick="agregarElementosFor()"title="pruebaArrays" value="prueba Arrays usando sólo for"></input>
-					  		
-					  		<br>
-					  		<br>
-					   
-					  			 	<ul id="ulTemporal1">Acá va a aparecer los datos impresos del arry con .map</ulTemporal1>
+						<br>
+						<br>
+					<hr>
 					
-							<input type="button" onClick="agregarElementosMap()"title="pruebaArrays" value="prueba Arrays usando .map"></input>
+					</div>
 				
-							<br>
-					  		<br>	
-									<ul id="ulTemporal2">Acá va a aparecer los datos recorridos por un for y un foreach</ulTemporal1>
 					
-							<input type="button" onClick="agregarElementosForForeach()"title="pruebaArrays" value="pruebaArraysForeach"></input>		
-				</div>
+					<div id="arraysFor">	
+									<ul id="ListadoTotal">Array hecho con " for "</ul>		<input type="button" onClick="agregarElementosFor()"title="pruebaArraysFor" value="For">
+					  </div>
+					  
+					  <div id="arraysMap">
+					  			 	<ul id="ulTemporal1">Array hecho con " .map "</ul>		<input type="button" onClick="agregarElementosMap()"title="pruebaArraysMAp" value="Map">
+					 </div>
+					 
+					 <div id="arraysForeach">
+									<ul id="ulTemporal2">Array hecho con " Foreach "</ul>		<input type="button" onClick="agregarElementosForForeach(); setTimeout(recargarWeb,10000);" title="pruebaArrays" value="Foreach">		
+					</div>
 	  		</div>
+	  			 
 	</body>
 </html>

@@ -180,11 +180,19 @@ function agregarElementosForForeach(){
 		listadoCelulares.forEach(function(data,index){
 			var linew= document.createElement("li");    
 				var contenido = document.createTextNode(data.marca+' '+data.modelo+" "+data.sistema_operativo+" "+data.pantalla_pulgadas+" "+data.pantalla_resolucion+" "+data.camara_resolucion);
+			
+				
 				ulElegido.appendChild(linew);
 				linew.appendChild(contenido);
-			})
-	
+			})	
 }
+
+function recargarWeb(){
+	location.reload(false);
+}
+
+
+
 
 
 

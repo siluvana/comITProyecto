@@ -19,7 +19,7 @@ body {
 }
 
 #celularCuadrante2{
-	float:right;
+	float:left;
 	margin-left:15px;
 	margin-right:15px;
 }
@@ -29,11 +29,12 @@ body {
 	margin-right:15px;
 }
 #CelularCuadrante4{
-	float:right;
+	float:left;
 	margin-left:15px;
 	margin-right:15px;
 }
 #CelularCuadrante5{
+	float:left;
 	margin-left:25%;
 	margin-right:25%;
 }
@@ -159,7 +160,7 @@ hr{
 }
 
 #Celular2{
-	float:right;
+	float:left;
 	padding:20px;
 }
 
@@ -169,20 +170,46 @@ hr{
 }
 
 #Celular4{
-	float:right;
+	float:left;
 	padding:20px;
 }
 
-#contenedorMaestroIngreso{
-	padding:20px;
-	float:left;
-	display:inblock;
+
+#MostrarOcultar{
+float:left;
+padding:20px;
+width:100%;	
+
 }
+
+
 
 #ingresar{
+	/*text-align:center;*/
 	padding:20px;
-	float:right;
-	display:inblock;
+	float:left;
+	width:100%;
+}
+
+#arraysFor{
+	
+	float:left;
+	width:30%;
+	padding:20px;
+}
+
+#arraysMap{
+	
+	float:left;
+	padding:20px;
+	width:30%;
+}
+
+#arraysForeach{
+	
+	float:left;
+	padding:20px;
+	width:30%;
 }
 
 
