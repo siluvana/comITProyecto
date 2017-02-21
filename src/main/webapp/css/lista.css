@@ -1,5 +1,5 @@
-body{
-	background-color: blue;
+body {
+	
 }
 
 
@@ -7,6 +7,6 @@ body{
 
 .celulares{
 	display: inline;
-	border-style: outset;
-	border-color: blue;
+	float: left;
 }
+

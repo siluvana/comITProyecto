@@ -90,10 +90,10 @@ listadoCelulares = [
 
 
 function agregarElementos() {
-	var p = document.createElement("p");
+	var p = document.createElement("ul");
 	p.id = "nuevo";
 	var t = document.createTextNode("Esto lo insertamos dinámicamente");
 	p.appendChild(t);
-	var div = document.getElementById("nuevosElementos");
+	var div = document.getElementById("listadoCelulares");
 	div.appendChild(p);
 }
