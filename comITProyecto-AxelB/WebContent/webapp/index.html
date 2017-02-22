@@ -144,6 +144,10 @@
 					<input type="button" onclick="agregarElementos()" title="Al presionar este botón se ejecutará el método indicado en onclick" value="Agregar elementos"></input><br>
 					<br>
 					 -->
+					 
+<!--  En este comentario están los botones for y el formulario de ingresar.
+
+
 	<div id="MostrarOcultar">
 		<hr>
 					 
@@ -207,7 +211,63 @@
 					 <div id="arraysForeach">
 									<ul id="ulTemporal2">Array hecho con " Foreach "</ul>		<input type="button" onClick="agregarElementosForForeach(); setTimeout(recargarWeb,10000);" title="pruebaArrays" value="Foreach">		
 					</div>
+	  		</div>		-->
+	  		
+	  		<hr>
+	  		
+	  		<br>
+	  		<div id="refinarMarca">
+	  				<form id="refinarPorMarca" action="javascript:;" onsubmit="refinarMarca()">
+	  				<p>Filtrar por marca:<br></p>
+								  <input type="checkbox" id="motorola" name="motorola" value="motorola"> Motorola<br>
+								  <input type="checkbox" id="sony" name="sony" value="sony" > Sony<br>
+								  <input type="checkbox" id="huawei" name="huawei" value="huawei"> Huawei<br>
+								  <input type="checkbox" id="lg" name="lg" value="lg" > LG<br>
+								  <input type="checkbox" id="samsung" name="samsung" value="samsung" > Samsung<br>
+								  <input type="checkbox" id="hyundai" name="hyundai" value="hyundai" > Hyundai<br>
+								  <input type="checkbox" id="iphone" name="iphone" value="iphone" > Iphone<br>
+						  <input type="submit" value="Filtrar">
+					</form>
+	 
+	  				<p>Resultados</p>
+	  				<ul id="resultados"></ul>
 	  		</div>
+	  		
+	  		
+	  	
+	  		
+	  		<div id="refinarPantalla">
+	  				<form id="refinarPorPantalla" action="javascript:;" onsubmit="refinarPorPantalla()">
+	  				<p>Filtrar por Tamaño pantalla:<br></p>
+								  <input type="checkbox" id="menor3" name="menor3" value="3"> Menor de 3 pulgadas<br>
+								  <input type="checkbox" id="menor4" name="menor4" value="4" > Menor de 4 pulgadas<br>
+								  <input type="checkbox" id="menor5" name="menor5" value="5"> Menor de 5 pulgadas<br>
+								  <input type="checkbox" id="mayor6" name="mayor6" value="6"> Mayor igual a 6 pulgadas<br>
+						  <input type="submit" value="Filtrar">
+					</form>
+
+	  				<p>Resultados</p>
+	  				<ul id="resultadosPantalla"></ul>
+	  		</div>
+	  		
+	  		
+	  		<div id="camaraFrontal">
+	  				<form id="refinarCamaraFrontal" action="javascript:;" onsubmit="refinarCamaraFrontal()">
+	  				<p>Filtrar por cámara frontal:<br></p>
+								  <input type="checkbox" id="con" name="con" value="con"> Con cámara Frontal<br>
+								  <input type="checkbox" id="sin" name="sin" value="sin" > Sin cámara Frontal<br>
+								  
+						  <input type="submit" value="Filtrar">
+					</form>
+
+	  				<p>Resultados</p>
+	  				<ul id="resultadosCamaraFrontal"></ul>
+	  		</div>
+	  		<br>
+	  		<br>
+	  		<br>
+	  		<br>
+	  		<br>
 	  			 
 	</body>
 </html>
