@@ -215,16 +215,19 @@ width:100%;
 #refinarMarca{
 	float:left;
 	width:30%;
+	padding-left:20px;
 }
 
 #refinarPantalla{
 	float:left;
 	width:30%;
+	padding-left:20px;
 }
 
 #camaraFrontal{
 	float:left;
 	width:30%;
+	padding-left:20px;
 }
 
 

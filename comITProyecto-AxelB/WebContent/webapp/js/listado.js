@@ -1,14 +1,5 @@
 //Array original:
 
-
-function tieneCamara(){
-	if(listadoCelulares.camara_frontal===true){
-		return "si";
-	}
-}
-
-true.toString("sí");
-
 listadoCelulares = [
 		{
 			
@@ -22,7 +13,8 @@ listadoCelulares = [
 			"camara_frontal_res": "5 Mpx",
 			"memoria_interna": "16 GB",
 			"flash": "si"
-		},
+		}
+			,
 		{
 			"marca": "Motorola",
 			"modelo": "2da Generación",
@@ -34,7 +26,8 @@ listadoCelulares = [
 			"camara_frontal_res": "5 Mpx",
 			"memoria_interna": "16 GB",
 			"flash": "si"
-		},
+		}
+			,
 		{
 			
 			"marca": "Motorola",
@@ -46,8 +39,9 @@ listadoCelulares = [
 			"camara_frontal": true,
 			"camara_frontal_res": "5 Mpx",
 			"memoria_interna": "16 GB",
-			"flash": "si"
-		},
+			"flash": true
+		}
+			,
 		{
 			
 			"marca": "Samsung",
@@ -59,8 +53,9 @@ listadoCelulares = [
 			"camara_frontal": true,
 			"camara_frontal_res": "5 Mpx",
 			"memoria_interna": "16 GB",
-			"flash": "si"
-		},
+			"flash": true
+		}
+			,
 		{
 			
 			"marca": "Huawei",
@@ -72,8 +67,9 @@ listadoCelulares = [
 			"camara_frontal": false,
 			"camara_frontal_res": "5 Mpx",
 			"memoria_interna": "16 GB",
-			"flash": "si"
-		},
+			"flash": true
+		}
+			,
 		{
 			
 			"marca": "Huawei",
@@ -85,8 +81,9 @@ listadoCelulares = [
 			"camara_frontal": true,
 			"camara_frontal_res": "2 Mpx",
 			"memoria_interna": "4 GB",
-			"flash": "si"
-		},
+			"flash": false
+		}	
+			,
 		{
 			
 			"marca": "Sony",
@@ -98,231 +95,231 @@ listadoCelulares = [
 			"camara_frontal": false,
 			"camara_frontal_res": "5 Mpx",
 			"memoria_interna": "16 GB",
-			"flash": "si"
-		}
-	,
+			"flash": false
+	}
+		,
 	{
-	"marca": "Sony",
-	"modelo": "Z3",
-	"sistema_operativo": "Android",
-	"pantalla_pulgadas": 7,
-	"pantalla_resolucion": "800x480",
-	"camara_resolucion": "13 Mpx",
-	"camara_frontal": true,
-	"camara_frontal_res": "5 Mpx",
-	"memoria_interna": "16 GB",
-	"flash": "si"
-}
-	,
+		"marca": "Sony",
+		"modelo": "Z3",
+		"sistema_operativo": "Android",
+		"pantalla_pulgadas": 7,
+		"pantalla_resolucion": "800x480",
+		"camara_resolucion": "13 Mpx",
+		"camara_frontal": true,
+		"camara_frontal_res": "5 Mpx",
+		"memoria_interna": "16 GB",
+		"flash": true
+	}
+		,
 	{
-	"marca": "LG",
-	"modelo": "Leon",
-	"sistema_operativo": "Android",
-	"pantalla_pulgadas": 4,
-	"pantalla_resolucion": "800x480",
-	"camara_resolucion": "13 Mpx",
-	"camara_frontal": true,
-	"camara_frontal_res": "5 Mpx",
-	"memoria_interna": "16 GB",
-	"flash": "si"
-}
-	,
+		"marca": "LG",
+		"modelo": "Leon",
+		"sistema_operativo": "Android",
+		"pantalla_pulgadas": 4,
+		"pantalla_resolucion": "800x480",
+		"camara_resolucion": "13 Mpx",
+		"camara_frontal": true,
+		"camara_frontal_res": "5 Mpx",
+		"memoria_interna": "16 GB",
+		"flash": false
+	}
+		,
 	{
-	"marca": "LG",
-	"modelo": "Spirit",
-	"sistema_operativo": "Android",
-	"pantalla_pulgadas": 5,
-	"pantalla_resolucion": "800x480",
-	"camara_resolucion": "13 Mpx",
-	"camara_frontal": true,
-	"camara_frontal_res": "5 Mpx",
-	"memoria_interna": "16 GB",
-	"flash": "si"
-}
-	,
+		"marca": "LG",
+		"modelo": "Spirit",
+		"sistema_operativo": "Android",
+		"pantalla_pulgadas": 5,
+		"pantalla_resolucion": "800x480",
+		"camara_resolucion": "13 Mpx",
+		"camara_frontal": true,
+		"camara_frontal_res": "5 Mpx",
+		"memoria_interna": "16 GB",
+		"flash": true
+	}
+		,
 	{
-	"marca": "Sony",
-	"modelo": "Z2",
-	"sistema_operativo": "Android",
-	"pantalla_pulgadas": 5,
-	"pantalla_resolucion": "800x480",
-	"camara_resolucion": "13 Mpx",
-	"camara_frontal": true,
-	"camara_frontal_res": "5 Mpx",
-	"memoria_interna": "16 GB",
-	"flash": "si"
-}
-	,
+		"marca": "Sony",
+		"modelo": "Z2",
+		"sistema_operativo": "Android",
+		"pantalla_pulgadas": 5,
+		"pantalla_resolucion": "800x480",
+		"camara_resolucion": "13 Mpx",
+		"camara_frontal": true,
+		"camara_frontal_res": "5 Mpx",
+		"memoria_interna": "16 GB",
+		"flash": true
+	}
+		,
 	{
-	"marca": "Samsung",
-	"modelo": "S7",
-	"sistema_operativo": "Android",
-	"pantalla_pulgadas": 7,
-	"pantalla_resolucion": "800x480",
-	"camara_resolucion": "13 Mpx",
-	"camara_frontal": true,
-	"camara_frontal_res": "5 Mpx",
-	"memoria_interna": "16 GB",
-	"flash": "si"
-}
-	,
+		"marca": "Samsung",
+		"modelo": "S7",
+		"sistema_operativo": "Android",
+		"pantalla_pulgadas": 7,
+		"pantalla_resolucion": "800x480",
+		"camara_resolucion": "13 Mpx",
+		"camara_frontal": true,
+		"camara_frontal_res": "5 Mpx",
+		"memoria_interna": "16 GB",
+		"flash": false
+	}
+		,
 	{
-	"marca": "Samsung",
-	"modelo": "A4",
-	"sistema_operativo": "Android",
-	"pantalla_pulgadas": 5,
-	"pantalla_resolucion": "800x480",
-	"camara_resolucion": "13 Mpx",
-	"camara_frontal": true,
-	"camara_frontal_res": "5 Mpx",
-	"memoria_interna": "16 GB",
-	"flash": "si"
-}
-	,
+		"marca": "Samsung",
+		"modelo": "A4",
+		"sistema_operativo": "Android",
+		"pantalla_pulgadas": 5,
+		"pantalla_resolucion": "800x480",
+		"camara_resolucion": "13 Mpx",
+		"camara_frontal": true,
+		"camara_frontal_res": "5 Mpx",
+		"memoria_interna": "16 GB",
+		"flash": false
+	}
+		,
 	{
-	"marca": "Samsung",
-	"modelo": "A5",
-	"sistema_operativo": "Android",
-	"pantalla_pulgadas": 4,
-	"pantalla_resolucion": "800x480",
-	"camara_resolucion": "13 Mpx",
-	"camara_frontal": true,
-	"camara_frontal_res": "5 Mpx",
-	"memoria_interna": "16 GB",
-	"flash": "si"
-}
-	,
+		"marca": "Samsung",
+		"modelo": "A5",
+		"sistema_operativo": "Android",
+		"pantalla_pulgadas": 4,
+		"pantalla_resolucion": "800x480",
+		"camara_resolucion": "13 Mpx",
+		"camara_frontal": true,
+		"camara_frontal_res": "5 Mpx",
+		"memoria_interna": "16 GB",
+		"flash": false
+	}
+		,
 	{
-	"marca": "Sony",
-	"modelo": "Z1",
-	"sistema_operativo": "Android",
-	"pantalla_pulgadas": 5,
-	"pantalla_resolucion": "800x480",
-	"camara_resolucion": "13 Mpx",
-	"camara_frontal": true,
-	"camara_frontal_res": "5 Mpx",
-	"memoria_interna": "16 GB",
-	"flash": "si"
-}
-	,
+		"marca": "Sony",
+		"modelo": "Z1",
+		"sistema_operativo": "Android",
+		"pantalla_pulgadas": 5,
+		"pantalla_resolucion": "800x480",
+		"camara_resolucion": "13 Mpx",
+		"camara_frontal": true,
+		"camara_frontal_res": "5 Mpx",
+		"memoria_interna": "16 GB",
+		"flash": true
+	}
+		,
 	{
-	"marca": "Huawei",
-	"modelo": "Y570",
-	"sistema_operativo": "Android",
-	"pantalla_pulgadas": 5,
-	"pantalla_resolucion": "800x480",
-	"camara_resolucion": "13 Mpx",
-	"camara_frontal": true,
-	"camara_frontal_res": "5 Mpx",
-	"memoria_interna": "16 GB",
-	"flash": "si"
-}
-	,
+		"marca": "Huawei",
+		"modelo": "Y570",
+		"sistema_operativo": "Android",
+		"pantalla_pulgadas": 5,
+		"pantalla_resolucion": "800x480",
+		"camara_resolucion": "13 Mpx",
+		"camara_frontal": true,
+		"camara_frontal_res": "5 Mpx",
+		"memoria_interna": "16 GB",
+		"flash": false
+	}
+		,
 	{
-	"marca": "LG",
-	"modelo": "Leon 4LTE",
-	"sistema_operativo": "Android",
-	"pantalla_pulgadas": 5,
-	"pantalla_resolucion": "800x480",
-	"camara_resolucion": "13 Mpx",
-	"camara_frontal": true,
-	"camara_frontal_res": "5 Mpx",
-	"memoria_interna": "16 GB",
-	"flash": "si"
-}
-	,
+		"marca": "LG",
+		"modelo": "Leon 4LTE",
+		"sistema_operativo": "Android",
+		"pantalla_pulgadas": 5,
+		"pantalla_resolucion": "800x480",
+		"camara_resolucion": "13 Mpx",
+		"camara_frontal": true,
+		"camara_frontal_res": "5 Mpx",
+		"memoria_interna": "16 GB",
+		"flash": false
+	}
+		,
 	{
-	"marca": "Iphone",
-	"modelo": "6ta gen",
-	"sistema_operativo": "Android",
-	"pantalla_pulgadas": 5,
-	"pantalla_resolucion": "800x480",
-	"camara_resolucion": "13 Mpx",
-	"camara_frontal": true,
-	"camara_frontal_res": "5 Mpx",
-	"memoria_interna": "16 GB",
-	"flash": "si"
-}
-	,
+		"marca": "Iphone",
+		"modelo": "6ta gen",
+		"sistema_operativo": "Android",
+		"pantalla_pulgadas": 5,
+		"pantalla_resolucion": "800x480",
+		"camara_resolucion": "13 Mpx",
+		"camara_frontal": true,
+		"camara_frontal_res": "5 Mpx",
+		"memoria_interna": "16 GB",
+		"flash": true
+	}
+		,
 	{
-	"marca": "Iphone",
-	"modelo": "4S gen",
-	"sistema_operativo": "Android",
-	"pantalla_pulgadas": 5,
-	"pantalla_resolucion": "800x480",
-	"camara_resolucion": "13 Mpx",
-	"camara_frontal": true,
-	"camara_frontal_res": "5 Mpx",
-	"memoria_interna": "16 GB",
-	"flash": "si"
-}
-	,
+		"marca": "Iphone",
+		"modelo": "4S gen",
+		"sistema_operativo": "Android",
+		"pantalla_pulgadas": 5,
+		"pantalla_resolucion": "800x480",
+		"camara_resolucion": "13 Mpx",
+		"camara_frontal": true,
+		"camara_frontal_res": "5 Mpx",
+		"memoria_interna": "16 GB",
+		"flash": true
+	}
+		,
 	{
-	"marca": "Hyundai",
-	"modelo": "Next",
-	"sistema_operativo": "Android",
-	"pantalla_pulgadas": 5,
-	"pantalla_resolucion": "800x480",
-	"camara_resolucion": "13 Mpx",
-	"camara_frontal": false,
-	"camara_frontal_res": "5 Mpx",
-	"memoria_interna": "16 GB",
-	"flash": "si"
-}
-	,
+		"marca": "Hyundai",
+		"modelo": "Next",
+		"sistema_operativo": "Android",
+		"pantalla_pulgadas": 5,
+		"pantalla_resolucion": "800x480",
+		"camara_resolucion": "13 Mpx",
+		"camara_frontal": false,
+		"camara_frontal_res": "5 Mpx",
+		"memoria_interna": "16 GB",
+		"flash": false
+	}
+		,
 	{
-	"marca": "Iphone",
-	"modelo": "5S gen",
-	"sistema_operativo": "Android",
-	"pantalla_pulgadas": 5,
-	"pantalla_resolucion": "800x480",
-	"camara_resolucion": "13 Mpx",
-	"camara_frontal": true,
-	"camara_frontal_res": "5 Mpx",
-	"memoria_interna": "16 GB",
-	"flash": "si"
-}
-	,
+		"marca": "Iphone",
+		"modelo": "5S gen",
+		"sistema_operativo": "Android",
+		"pantalla_pulgadas": 5,
+		"pantalla_resolucion": "800x480",
+		"camara_resolucion": "13 Mpx",
+		"camara_frontal": true,
+		"camara_frontal_res": "5 Mpx",
+		"memoria_interna": "16 GB",
+		"flash": true
+	}
+		,
 	{
-	"marca": "Iphone",
-	"modelo": "7ma gen",
-	"sistema_operativo": "Android",
-	"pantalla_pulgadas": 5,
-	"pantalla_resolucion": "800x480",
-	"camara_resolucion": "13 Mpx",
-	"camara_frontal": true,
-	"camara_frontal_res": "5 Mpx",
-	"memoria_interna": "16 GB",
-	"flash": "si"
-}
-	,
+		"marca": "Iphone",
+		"modelo": "7ma gen",
+		"sistema_operativo": "Android",
+		"pantalla_pulgadas": 5,
+		"pantalla_resolucion": "800x480",
+		"camara_resolucion": "13 Mpx",
+		"camara_frontal": true,
+		"camara_frontal_res": "5 Mpx",
+		"memoria_interna": "16 GB",
+		"flash": true
+	}
+		,
 	{
-	"marca": "Hyundai",
-	"modelo": "Extreme",
-	"sistema_operativo": "Android",
-	"pantalla_pulgadas": 5,
-	"pantalla_resolucion": "800x480",
-	"camara_resolucion": "13 Mpx",
-	"camara_frontal": true,
-	"camara_frontal_res": "5 Mpx",
-	"memoria_interna": "16 GB",
-	"flash": "si"
-	
-}
-	,
+		"marca": "Hyundai",
+		"modelo": "Extreme",
+		"sistema_operativo": "Android",
+		"pantalla_pulgadas": 5,
+		"pantalla_resolucion": "800x480",
+		"camara_resolucion": "13 Mpx",
+		"camara_frontal": true,
+		"camara_frontal_res": "5 Mpx",
+		"memoria_interna": "16 GB",
+		"flash": false
+		
+	}
+		,
 	{
-	"marca": "Hyundai",
-	"modelo": "TimeSpace",
-	"sistema_operativo": "Android",
-	"pantalla_pulgadas": 5,
-	"pantalla_resolucion": "800x480",
-	"camara_resolucion": "13 Mpx",
-	"camara_frontal": true,
-	"camara_frontal_res": "5 Mpx",
-	"memoria_interna": "16 GB",
-	"flash": "si"
-}
-];
+		"marca": "Hyundai",
+		"modelo": "TimeSpace",
+		"sistema_operativo": "Android",
+		"pantalla_pulgadas": 5,
+		"pantalla_resolucion": "800x480",
+		"camara_resolucion": "13 Mpx",
+		"camara_frontal": true,
+		"camara_frontal_res": "5 Mpx",
+		"memoria_interna": "16 GB",
+		"flash": true
+	}
+	];
 
 
 function agregarElementos() // original de la tarea
@@ -432,7 +429,9 @@ function refinarMarca(){
 				
 		var ulElegido= document.getElementById("resultados"); 	//Ul elegido para hacer de contenedor y que aparezcan los resultados
 			
-				var refinarPorMarca= document.getElementById("refinarPorMarca");
+				var refinarPorMarca= document.getElementById("refinarMarca");
+				
+				var formId= document.getElementById("refinarPorMarca");
 				
 						if(motorolaCheckbox.checked){		//Condición de checkeado
 							
@@ -462,12 +461,13 @@ function refinarMarca(){
 								        // Adherimos el String creado
 								           			liMarca.appendChild(displayMarca);
 								           			
-								          //refinarPorMarca.reset();
-								          
+								           			
 								          //setTimeout(function(){ location.reload(false) },10000); 	"    Timer!!!!   "
 								     
 								          refinarPorMarca.onclick= function(){
-								        	  location.reload(false);
+								        	
+								        	  document.getElementById("resultados").innerHTML="";
+								        	 
 								          }
 							        }							
 							}
@@ -507,10 +507,9 @@ function refinarMarca(){
 							        // Adherimos el String creado
 							           			liMarca.appendChild(displayMarca);
 							           			
-							           			
 							        //Refrescar dps de cada click
 							           		  refinarPorMarca.onclick= function(){
-									        	  location.reload(false);
+							           			  document.getElementById("resultados").innerHTML="";
 									          }
 						        }							
 						}
@@ -550,10 +549,10 @@ function refinarMarca(){
 									        // Adherimos el String creado
 									           			liMarca.appendChild(displayMarca);
 									           			
-									           			
 									        //Refrescar dps de cada click
 									           		  refinarPorMarca.onclick= function(){
-											        	  location.reload(false);
+											        	
+									           			  document.getElementById("resultados").innerHTML="";
 											          }
 								        }							
 								}
@@ -591,10 +590,11 @@ function refinarMarca(){
 											           
 											        // Adherimos el String creado
 											           			liMarca.appendChild(displayMarca);
-										       
+											           			
 											        //Refrescar dps de cada click
 											           		  refinarPorMarca.onclick= function(){
-													        	  location.reload(false);
+													        	  
+											           			  document.getElementById("resultados").innerHTML="";
 													          }
 										     }							
 										}
@@ -634,7 +634,9 @@ function refinarMarca(){
 													     
 														          //Refrescar dps de cada click
 														          refinarPorMarca.onclick= function(){
-														        	  location.reload(false);
+														        	  //location.reload(false);
+														        	  
+														        	  document.getElementById("resultados").innerHTML="";
 														          }
 														}							
 												}
@@ -676,7 +678,9 @@ function refinarMarca(){
 															          	
 															          //Refrescar dps de cada click
 															          refinarPorMarca.onclick= function(){
-															        	  location.reload(false);
+															        	  //location.reload(false);
+															        	 
+															        	  document.getElementById("resultados").innerHTML="";
 															          }
 															}							
 													}
@@ -718,11 +722,24 @@ function refinarMarca(){
 																          
 																          //Refrescar dps de cada click
 																          refinarPorMarca.onclick= function(){
-																        	  location.reload(false);
+																        	 // location.reload(false);
+																        	  
+																        	  document.getElementById("resultados").innerHTML="";
 																          }
 																}							
 														}
 												}
+						
+						
+						
+						/*
+var botonSubmit= document.getElementById("botonMarca");
+
+						botonSubmit.onclick= function(){
+							formId.reset();
+		           			
+						}*/
+						
 
 }
 
@@ -771,7 +788,8 @@ function refinarPorPantalla(){
 							          //setTimeout(function(){ location.reload(false) },10000); 	"    Timer!!!!   "
 							     
 							          refinarPorPantalla.onclick= function(){
-							        	  location.reload(false);
+							        	  //location.reload(false);
+							        	  document.getElementById("resultadosPantalla").innerHTML="";
 							          }
 						        }							
 						}
@@ -820,7 +838,8 @@ function refinarPorPantalla(){
 											          //setTimeout(function(){ location.reload(false) },10000); 	"    Timer!!!!   "
 											     
 											          refinarPorPantalla.onclick= function(){
-											        	  location.reload(false);
+											        	 // location.reload(false);
+											        	  document.getElementById("resultadosPantalla").innerHTML="";
 											          }
 										        }							
 										}
@@ -869,7 +888,8 @@ function refinarPorPantalla(){
 															          //setTimeout(function(){ location.reload(false) },10000); 	"    Timer!!!!   "
 															     
 															          refinarPorPantalla.onclick= function(){
-															        	  location.reload(false);
+															        	 // location.reload(false);
+															        	  document.getElementById("resultadosPantalla").innerHTML="";
 															          }
 														        }							
 														}
@@ -917,7 +937,8 @@ function refinarPorPantalla(){
 																				          //setTimeout(function(){ location.reload(false) },10000); 	"    Timer!!!!   "
 																				     
 																				          refinarPorPantalla.onclick= function(){
-																				        	  location.reload(false);
+																				        	  //location.reload(false);
+																				        	  document.getElementById("resultadosPantalla").innerHTML="";
 																				          }
 																			        }							
 																			}
@@ -936,6 +957,9 @@ function refinarCamaraFrontal(){
 		var ulElegidoCamaraFrontal= document.getElementById("resultadosCamaraFrontal"); 	//Ul elegido para hacer de contenedor y que aparezcan los resultados
 			
 				var refinarPorCamaraFrontal= document.getElementById("camaraFrontal");
+				
+				
+				
 				
 						if(camaraFrontalTrueCheckbox.checked){		//Condición de checkeado
 							
@@ -961,17 +985,16 @@ function refinarCamaraFrontal(){
 								           			ulElegidoCamaraFrontal.appendChild(liCamaraFrontal); 
 								           
 								        // Creamos un String
-								           			var displayCamaraFrontal = document.createTextNode(listadoCelulares[i].marca+"  "+listadoCelulares[i].modelo+"    Ca.fr:  "+listadoCelulares[i].camara_frontal); 
+								           			var displayCamaraFrontal = document.createTextNode(listadoCelulares[i].marca+"  "+listadoCelulares[i].modelo+"    Ca.fr:  "+(listadoCelulares[i].camara_frontal ? "sí" : "no") + " tiene"); 
 								           
 								        // Adherimos el String creado
 								           			liCamaraFrontal.appendChild(displayCamaraFrontal);
 								           			
-								          //refinarPorMarca.reset();
 								          
-								          //setTimeout(function(){ location.reload(false) },10000); 	"    Timer!!!!   "
 								     
 								           	refinarPorCamaraFrontal.onclick= function(){
-								        	  location.reload(false);
+								        	  
+								           	  document.getElementById("resultadosCamaraFrontal").innerHTML="";
 								          }
 							        }							
 							}
@@ -1013,7 +1036,7 @@ function refinarCamaraFrontal(){
 												        ulElegidoCamaraFrontal.appendChild(liCamaraFrontal); 
 												           
 												// Creamos un String
-												        var displayCamaraFrontal = document.createTextNode(listadoCelulares[i].marca+"  "+listadoCelulares[i].modelo+"   "+listadoCelulares[i].camara_frontal);
+												        var displayCamaraFrontal = document.createTextNode(listadoCelulares[i].marca+"  "+listadoCelulares[i].modelo+"   "+(listadoCelulares[i].camara_frontal ? "sí" : "no") + " tiene");
 												        
 												// Adherimos el String creado
 												        liCamaraFrontal.appendChild(displayCamaraFrontal);
@@ -1023,7 +1046,8 @@ function refinarCamaraFrontal(){
 												//setTimeout(function(){ location.reload(false) },10000); 	"    Timer!!!!   "
 												     
 												        refinarPorCamaraFrontal.onclick= function(){
-												        location.reload(false);
+												        //location.reload(false);
+												        	 document.getElementById("resultadosCamaraFrontal").innerHTML="";
 												      }
 											  }							
 									}
