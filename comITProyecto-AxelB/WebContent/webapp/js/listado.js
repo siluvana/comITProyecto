@@ -1120,13 +1120,13 @@ Celular1=[
 	{
 	"marca": 					"<font color='turquoise'><strong> 	Marca:					</strong></font> 		Sony",
 	"modelo": 					"<font color='turquoise'><strong>	Modelo:					</strong></font> 		Xperia M2",
-	"sistema_operativo": 		"<font color='turquoise'><strong>	Sist. op.:				</strong></font> 		Android Lolipop",
-	"pantalla_pulgadas": 		"<font color='turquoise'><strong>	Pantalla:				</strong></font> 		5",
-	"pantalla_resolucion": 		"<font color='turquoise'><strong>	Resolución:				</strong></font> 		1280x720",
-	"camara_resolucion": 		"<font color='turquoise'><strong>	Cámara res.:			</strong></font> 		8 Mpx",
-	"camara_frontal": 			"<font color='turquoise'><strong>	Cámara frontal:			</strong></font> 		Sí",
-	"camara_frontal_res": 		"<font color='turquoise'><strong>	Cámara front. res:		</strong></font> 		5 Mpx",
-	"memoria_interna": 			"<font color='turquoise'><strong>	Memoria int:			</strong></font> 		16 GB"
+	"sistema_operativo": 				"<font color='turquoise'><strong>	Sist. op.:				</strong></font> 		Android Lolipop",
+	"pantalla_pulgadas": 				"<font color='turquoise'><strong>	Pantalla:				</strong></font> 		5",
+	"pantalla_resolucion": 				"<font color='turquoise'><strong>	Resolución:				</strong></font> 		1280x720",
+	"camara_resolucion": 				"<font color='turquoise'><strong>	Cámara res.:				</strong></font> 		8 Mpx",
+	"camara_frontal": 				"<font color='turquoise'><strong>	Cámara frontal:				</strong></font> 		Sí",
+	"camara_frontal_res": 				"<font color='turquoise'><strong>	Cámara front. res:			</strong></font> 		5 Mpx",
+	"memoria_interna": 				"<font color='turquoise'><strong>	Memoria int:				</strong></font> 		16 GB"
 }
 ]
 
@@ -1134,13 +1134,13 @@ Celular2=[
 	{
 	"marca": 					"<font color='green'><strong>		Marca:					</strong></font> 		Samsung",
 	"modelo": 					"<font color='green'><strong>		Modelo:					</strong></font> 		Core II",
-	"sistema_operativo": 		"<font color='green'><strong>		Sist. op.:				</strong></font> 		Android kitkat 4.1.2",
-	"pantalla_pulgadas": 		"<font color='green'><strong>		Pantalla:				</strong></font> 		4",
-	"pantalla_resolucion": 		"<font color='green'><strong>		Resolución:				</strong></font> 		1280x720",
-	"camara_resolucion": 		"<font color='green'><strong>		Cámara res.:			</strong></font> 		3 Mpx",
-	"camara_frontal": 			"<font color='green'><strong>		Cámara frontal:			</strong></font> 		Sí",
-	"camara_frontal_res": 		"<font color='green'><strong>		Cámara front. res:		</strong></font> 		5 Mpx",
-	"memoria_interna": 			"<font color='green'><strong>		Memoria int:			</strong></font> 		8 GB"
+	"sistema_operativo": 				"<font color='green'><strong>		Sist. op.:				</strong></font> 		Android kitkat 4.1.2",
+	"pantalla_pulgadas": 				"<font color='green'><strong>		Pantalla:				</strong></font> 		4",
+	"pantalla_resolucion": 				"<font color='green'><strong>		Resolución:				</strong></font> 		1280x720",
+	"camara_resolucion": 				"<font color='green'><strong>		Cámara res.:				</strong></font> 		3 Mpx",
+	"camara_frontal": 				"<font color='green'><strong>		Cámara frontal:				</strong></font> 		Sí",
+	"camara_frontal_res": 				"<font color='green'><strong>		Cámara front. res:			</strong></font> 		5 Mpx",
+	"memoria_interna": 				"<font color='green'><strong>		Memoria int:				</strong></font> 		8 GB"
 }
 ]
 
@@ -1148,13 +1148,13 @@ Celular3=[
 	{
 	"marca": 					"<font color='yellow'><strong>		Marca:					</strong></font> 		Huawei",
 	"modelo": 					"<font color='yellow'><strong>		Modelo:					</strong></font> 		P8",
-	"sistema_operativo": 		"<font color='yellow'><strong>		Sist. op.:				</strong></font> 		Android candy",
-	"pantalla_pulgadas": 		"<font color='yellow'><strong>		Pantalla:				</strong></font> 		5,5",
-	"pantalla_resolucion": 		"<font color='yellow'><strong>		Resolución:				</strong></font> 		1280x720",
-	"camara_resolucion": 		"<font color='yellow'><strong>		Cámara res:				</strong></font> 		6 Mpx",
-	"camara_frontal": 			"<font color='yellow'><strong>		Cámara frontal:			</strong></font> 		Sí",
-	"camara_frontal_res": 		"<font color='yellow'><strong>		Cámara front. res:		</strong></font> 		8 Mpx",
-	"memoria_interna": 			"<font color='yellow'><strong>		Memoria int:			</strong></font> 		12 GB"
+	"sistema_operativo": 				"<font color='yellow'><strong>		Sist. op.:				</strong></font> 		Android candy",
+	"pantalla_pulgadas": 				"<font color='yellow'><strong>		Pantalla:				</strong></font> 		5,5",
+	"pantalla_resolucion": 				"<font color='yellow'><strong>		Resolución:				</strong></font> 		1280x720",
+	"camara_resolucion": 				"<font color='yellow'><strong>		Cámara res:				</strong></font> 		6 Mpx",
+	"camara_frontal": 				"<font color='yellow'><strong>		Cámara frontal:				</strong></font> 		Sí",
+	"camara_frontal_res": 				"<font color='yellow'><strong>		Cámara front. res:			</strong></font> 		8 Mpx",
+	"memoria_interna": 				"<font color='yellow'><strong>		Memoria int:				</strong></font> 		12 GB"
 }
 ]
 
@@ -1162,13 +1162,13 @@ Celular4=[
 	{
 	"marca": 					"<font color='violet'><strong>		Marca:					</strong></font> 		LG",
 	"modelo": 					"<font color='violet'><strong>		Modelo:					</strong></font>	 	Leon",
-	"sistema_operativo": 		"<font color='violet'><strong>		Sist. op.:				</strong></font> 		Android Lolipop",
-	"pantalla_pulgadas": 		"<font color='violet'><strong>		Pantlla:				</strong></font> 		2,5",
-	"pantalla_resolucion": 		"<font color='violet'><strong>		Resolución:				</strong></font> 		1280x720",
-	"camara_resolucion": 		"<font color='violet'><strong>		Cámara res:				</strong></font> 		8 Mpx",
-	"camara_frontal": 			"<font color='violet'><strong>		Cámara frontal:			</strong></font> 		Sí",
-	"camara_frontal_res": 		"<font color='violet'><strong>		Cámara front. res:		</strong></font> 		5 Mpx",
-	"memoria_interna": 			"<font color='violet'><strong>		Memoria int:			</strong></font> 		32 GB"
+	"sistema_operativo": 				"<font color='violet'><strong>		Sist. op.:				</strong></font> 		Android Lolipop",
+	"pantalla_pulgadas": 				"<font color='violet'><strong>		Pantlla:				</strong></font> 		2,5",
+	"pantalla_resolucion": 				"<font color='violet'><strong>		Resolución:				</strong></font> 		1280x720",
+	"camara_resolucion": 				"<font color='violet'><strong>		Cámara res:				</strong></font> 		8 Mpx",
+	"camara_frontal": 				"<font color='violet'><strong>		Cámara frontal:				</strong></font> 		Sí",
+	"camara_frontal_res": 				"<font color='violet'><strong>		Cámara front. res:			</strong></font> 		5 Mpx",
+	"memoria_interna": 				"<font color='violet'><strong>		Memoria int:				</strong></font> 		32 GB"
 }
 ]
 
