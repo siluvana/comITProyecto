@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <title>Tarea Clase 2 Axel B.</title>
+	<!-- archivos js que serán usados -->
+	<script type="text/javascript" src="js/listado.js" ></script>
+	
+	<!-- estilos que necesitan importarse -->
+	<link rel="stylesheet" href="css/comunidadIT.css" />
+
+</head>
+	<body>
+			<div id="cabecera">
+					
+					<strong>Esta es una prueba de acceso del inicio a la página de celulares con datos dinámicos.</strong>
+				
+				<br>
+				
+			</div>
+			
+			<div id="pruebas">
+			
+				<p id="listado">Listado:</p>
+			
+						<ul id="ulListado">
+						
+								<!--  Acá debería aparecer el texto dinámico -->
+						
+						</ul>
+						
+							<form>
+									<label for="texto" id="labelTexto">Texto:</label>
+									<input id="texto" type="text" size=40/>
+									<input type="button" onClick="agregarElementos()"title="Al presionar este botón se ejecutará el método indicado en onclick" value="Agregar elementos"></input>
+							</form>	
+			
+			</div>
+			
+			<br>
+			
+			<br>
+					<!-- Agregar acá dinámicamente otro elemento a la página -->
+					<!-- 
+					<div id="nuevosElementos">
+					</div>
+					
+					<input type="button" onclick="agregarElementos()" title="Al presionar este botón se ejecutará el método indicado en onclick" value="Agregar elementos"></input><br>
+					<br>
+					 -->
+		<h2>Por favor ingrese para continuar:</h2>
+		
+			 <form action="ServletIngresar.jsp" method="post">
+			 		<table>
+			 				<tr>
+								 <td>
+									 <label for="usuario" placeholder="usuario">Usuario:</label>
+								 </td>
+			 
+								 <td>
+									 <input type="text" name="usuario">
+								 </td>
+							 </tr>
+							 
+							 <tr>
+								 <td>
+									 <label for="password" placeholder="password">Password:</label>
+								 </td>
+			 
+								 <td>
+									 <input type="text" name="password">
+								 </td>
+							 </tr>
+							 
+							 <tr>
+							 	 <td>
+									 <input type="submit" name="ingresar">
+								 </td>
+							 </tr>
+					 </table>
+			 	</form>
+			<br>
+			<a href="paginas/lista.html">Ir al listado de celulares salteando el paso anterior</a>
+	</body>
+</html>

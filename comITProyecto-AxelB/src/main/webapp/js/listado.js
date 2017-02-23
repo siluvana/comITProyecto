@@ -1,3 +1,4 @@
+
 listadoCelulares = [
 		{
 			"marca": "Motorola",
@@ -89,11 +90,18 @@ listadoCelulares = [
 	];
 
 
-function agregarElementos() {
-	var p = document.createElement("p");
-	p.id = "nuevo";
-	var t = document.createTextNode("Esto lo insertamos dinámicamente");
-	p.appendChild(t);
-	var div = document.getElementById("nuevosElementos");
-	div.appendChild(p);
-}
+function agregarElementos() 
+							{
+								var lista=document.getElementById("ulListado");  /*Reconoce el elemento html utilizado*/
+								
+								var linew= document.createElement("li");		/*Crea otro elemento dentro del elemento contenedor*/
+									
+										var contenido = document.createTextNode(listadoCelulares); 	/*Imprime algo dentro del elemento 'li' "*/
+							 
+											lista.appendChild(linew);
+										
+												linew.appendChild(contenido);
+													
+													linew.appendChild(contenido).toString();	/* No pude imprimir los datos de c/u de los objetos, pero sí los objetos en sí */
+								
+							}

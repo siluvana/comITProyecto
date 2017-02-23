@@ -1,0 +1,273 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <title>Tarea Clase 2 Axel B.</title>
+	<!-- archivos js que serán usados -->
+	<script type="text/javascript" src="js/listado.js" ></script>
+	
+	<!-- estilos que necesitan importarse -->
+	<link rel="stylesheet" href="css/comunidadIT.css" />
+
+</head>
+	<body>
+			<!--  <div id="cabecera">
+					
+					<strong>Esta es una prueba de acceso del inicio a la página de celulares con datos dinámicos.</strong>
+				
+				<br>
+				
+			</div>	-->
+			
+			<div id="Celular1">
+				<h3 id="listado">Sony Xperia M2</h3>
+					<img alt="auto" src="img/xperia1.png" id="imagenIndex1">
+						<ul id="ulListado1">
+								<ul>
+									Marca<br>
+									Modelo<br>
+									Sistema Operativo<br>
+									Pantalla pulgadas<br>
+									Pantalla resolución<br>
+									Cámara resolucion<br>
+									Camara frontal<br>
+									Cámara frontal res<br>
+									Memoria interna<br>
+								</ul>	
+
+								<!--  Acá debería aparecer el texto dinámico -->
+						
+						</ul>
+						
+							<form>
+									<label for="texto" id="labelTexto">Ver más</label>
+									
+									<input type="button" onClick="agregarElementosInnerHTML1()"title="Al presionar este botón se ejecutará el método indicado en onclick" value="Información"></input>
+							</form>	
+			
+			</div>
+			
+			
+	<div id="Celular2">			
+		<h3 id="listado">Samsung Core II</h3>
+			<img alt="auto" src="img/samsung1.png" id="imagenIndex2">
+						<ul id="ulListado2">
+						
+								<ul>
+											Marca<br>
+											Modelo<br>
+											Sistema Operativo<br>
+											Pantalla pulgadas<br>
+											Pantalla resolución<br>
+											Cámara resolucion<br>
+											Camara frontal<br>
+											Cámara frontal res<br>
+											Memoria interna<br>
+								</ul>	
+						
+								<!--  Acá debería aparecer el texto dinámico -->
+						
+						</ul>
+						
+							<form>
+									<label for="texto" id="labelTexto">Ver más</label>
+									
+									<input type="button" onClick="agregarElementosInnerHTML2()"title="Al presionar este botón se ejecutará el método indicado en onclick" value="Información"></input>
+							</form>	
+	</div>
+			
+			
+			<div id="Celular3">
+				<h3 id="listado">Huawei P8</h3>
+					<img id="moto1" alt="auto" src="img/huawei.png" id="imagenIndex3">
+						<ul id="ulListado3">
+						
+								<ul>
+											Marca<br>
+											Modelo<br>
+											Sistema Operativo<br>
+											Pantalla pulgadas<br>
+											Pantalla resolución<br>
+											Cámara resolucion<br>
+											Camara frontal<br>
+											Cámara frontal res<br>
+											Memoria interna<br>
+								</ul>	
+						
+								<!--  Acá debería aparecer el texto dinámico -->
+						
+						</ul>
+						
+							<form>
+									<label for="texto" id="labelTexto">Ver más</label>
+									
+									<input type="button" onClick="agregarElementosInnerHTML3()"title="Al presionar este botón se ejecutará el método indicado en onclick" value="Información"></input>
+							</form>	
+			
+			</div>
+			
+			
+			
+			<div id="Celular4">
+				<h3 id="listado">LG Leon</h3>
+					<img id="moto1" alt="auto" src="img/lg1.png" id="imagenIndex4">
+						<ul id="ulListado4">
+						
+								<ul>
+											Marca<br>
+											Modelo<br>
+											Sistema Operativo<br>
+											Pantalla pulgadas<br>
+											Pantalla resolución<br>
+											Cámara resolucion<br>
+											Camara frontal<br>
+											Cámara frontal res<br>
+											Memoria interna<br>
+								</ul>	
+						
+								<!--  Acá debería aparecer el texto dinámico -->
+						
+						</ul>
+						
+							<form>
+									<label for="texto" id="labelTexto">Ver más</label>
+									
+									<input type="button" onClick="agregarElementosInnerHTML4()"title="Al presionar este botón se ejecutará el método indicado en onclick" value="Información"></input>
+							</form>	
+			
+			</div>
+					<!-- Agregar acá dinámicamente otro elemento a la página -->
+					<!-- 
+					<div id="nuevosElementos">
+					</div>
+					
+					<input type="button" onclick="agregarElementos()" title="Al presionar este botón se ejecutará el método indicado en onclick" value="Agregar elementos"></input><br>
+					<br>
+					 -->
+					 
+<!--  En este comentario están los botones for y el formulario de ingresar.
+
+
+	<div id="MostrarOcultar">
+		<hr>
+					 
+			<span>Puede ocultar el panel de ingreso.</span>	
+				 
+				<input type="button" value="Ocultar" onclick="ocultarIngresar()">
+				<input type="button" value="Mostrar" onclick="mostrarIngresar()">
+			<br>
+			<br>
+			
+			
+
+					<div id="ingresar">
+						<h2>Por favor ingrese para continuar:</h2>
+							 <form action="ServletIngresar.jsp" method="post">
+							 		<table>
+							 				<tr>
+												 <td>
+													 <label for="usuario" placeholder="usuario">Usuario:</label>
+												 </td>
+							 
+												 <td>
+													 <input type="text" name="usuario">
+												 </td>
+											 </tr>
+											 
+											 <tr>
+												 <td>
+													 <label for="password" placeholder="password">Password:</label>
+												 </td>
+							 
+												 <td>
+													 <input type="text" name="password">
+												 </td>
+											 </tr>
+											 
+											 <tr>
+											 	 <td>
+													 <input type="submit" name="ingresar">
+												 </td>
+											 </tr>
+									 </table>
+							 	</form>
+							<br>
+						 <a href="paginas/lista.html">Ir al listado de celulares salteando el paso anterior</a>
+						<br>
+						<br>
+					<hr>
+					
+					</div>
+				
+					
+					<div id="arraysFor">	
+									<ul id="ListadoTotal">Array hecho con " for "</ul>		<input type="button" onClick="agregarElementosFor()"title="pruebaArraysFor" value="For">
+					  </div>
+					  
+					  <div id="arraysMap">
+					  			 	<ul id="ulTemporal1">Array hecho con " .map "</ul>		<input type="button" onClick="agregarElementosMap()"title="pruebaArraysMAp" value="Map">
+					 </div>
+					 
+					 <div id="arraysForeach">
+									<ul id="ulTemporal2">Array hecho con " Foreach "</ul>		<input type="button" onClick="agregarElementosForForeach(); setTimeout(recargarWeb,10000);" title="pruebaArrays" value="Foreach">		
+					</div>
+	  		</div>		-->
+	  		
+	  		<hr>
+	  		
+	  		<br>
+	  		<div id="refinarMarca">
+	  				<form id="refinarPorMarca" action="javascript:;" onsubmit="refinarMarca()">
+	  				<p>Filtrar por marca:<br></p>
+								  <input type="checkbox" id="motorola" name="motorola" value="motorola"> Motorola<br>
+								  <input type="checkbox" id="sony" name="sony" value="sony" > Sony<br>
+								  <input type="checkbox" id="huawei" name="huawei" value="huawei"> Huawei<br>
+								  <input type="checkbox" id="lg" name="lg" value="lg" > LG<br>
+								  <input type="checkbox" id="samsung" name="samsung" value="samsung" > Samsung<br>
+								  <input type="checkbox" id="hyundai" name="hyundai" value="hyundai" > Hyundai<br>
+								  <input type="checkbox" id="iphone" name="iphone" value="iphone" > Iphone<br>
+						  <input type="submit" id="botonMarca" value="Filtrar">
+					</form>
+	 
+	  				<p>Resultados</p>
+	  				<ul id="resultados"></ul>
+	  		</div>
+	  		
+	  		
+	  	
+	  		
+	  		<div id="refinarPantalla">
+	  				<form id="refinarPorPantalla" action="javascript:;" onsubmit="refinarPorPantalla()">
+	  				<p>Filtrar por Tamaño pantalla:<br></p>
+								  <input type="checkbox" id="menor3" name="menor3" value="3"> Menor de 3 pulgadas<br>
+								  <input type="checkbox" id="menor4" name="menor4" value="4" > Menor de 4 pulgadas<br>
+								  <input type="checkbox" id="menor5" name="menor5" value="5"> Menor de 5 pulgadas<br>
+								  <input type="checkbox" id="mayor6" name="mayor6" value="6"> Mayor igual a 6 pulgadas<br>
+						  <input type="submit" value="Filtrar">
+					</form>
+
+	  				<p>Resultados</p>
+	  				<ul id="resultadosPantalla"></ul>
+	  		</div>
+	  		
+	  		
+	  		<div id="camaraFrontal">
+	  				<form id="refinarCamaraFrontal" action="javascript:;" onsubmit="refinarCamaraFrontal()">
+	  				<p>Filtrar por cámara frontal:<br></p>
+								  <input type="checkbox" id="con" name="con" value="con"> Con cámara Frontal<br>
+								  <input type="checkbox" id="sin" name="sin" value="sin"> Sin cámara Frontal<br>
+								  
+						  <input type="submit" value="Filtrar">
+					</form>
+
+	  				<p>Resultados</p>
+	  				<ul id="resultadosCamaraFrontal"></ul>
+	  		</div>
+	  		<br>
+	  		<br>
+	  		<br>
+	  		<br>
+	  		<br>
+	  			 
+	</body>
+</html>
