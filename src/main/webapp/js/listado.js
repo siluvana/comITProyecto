@@ -89,11 +89,13 @@ listadoCelulares = [
 	];
 
 
-function agregarElementos() {
-	var p = document.createElement("ul");
+ function agregarElementos() {
+	var p = document.createElement("li");
 	p.id = "nuevo";
-	var t = document.createTextNode("Esto lo insertamos dinámicamente");
+	var t = document.createTextNode(listadoCelulares[0].marca);
 	p.appendChild(t);
-	var div = document.getElementById("listadoCelulares");
+	var m = document.createTextNode(listadoCelulares[0].modelo);
+	p.appendChild(m);
+	var div = document.getElementById("nuevosElementos");
 	div.appendChild(p);
-}
+ }
