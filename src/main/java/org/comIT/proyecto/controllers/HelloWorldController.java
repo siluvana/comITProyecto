@@ -25,8 +25,6 @@ public class HelloWorldController {
 		int contador;
 		Integer contadorInteger;
 		
-		List<Animal> animalesVeterinaria = new ArrayList<Animal>();
-		
 		Animal teo = new Perro("Teo");
 		Perro garnet = new Perro("Garnet");		
 		Gato donGato = new Gato("Don Gato");
@@ -35,6 +33,7 @@ public class HelloWorldController {
 		Gato jimmy = new Gato("Jimmy"); 
 		Gallo claudio = new Gallo("Claudio");
 		
+		List<Animal> animalesVeterinaria = new ArrayList<Animal>();	
 		animalesVeterinaria.add(teo);
 		animalesVeterinaria.add(garnet);
 		animalesVeterinaria.add(donGato);
@@ -66,7 +65,7 @@ public class HelloWorldController {
 		
 		String nombresDeLosAnimales = "Animales creados: " + teo.getNombre() + " " + garnet.getNombre() + " " + jimmy.getNombre() + " " + claudio.getNombre();
 //		return nombresDeLosAnimales + " " + teo.emitirSonido() + " " + garnet.emitirSonido() + " " + jimmy.emitirSonido() + " " + claudio.emitirSonido();
-		return "" +  donGato.equals(donGato2) + " " + (donGato==donGato2);
+		return "" +  donGato.equals(donGato2) + " " + (donGato == donGato2);
 	}
 
 }

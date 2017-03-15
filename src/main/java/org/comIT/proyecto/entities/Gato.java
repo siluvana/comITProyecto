@@ -26,28 +26,19 @@ public class Gato extends Animal {
 	
 		Gato otherGato = (Gato)obj;
 
-		if(this.cantidadPatas != otherGato.cantidadPatas){
+		if(this.cantidadPatas != otherGato.cantidadPatas
+				|| this.tienePlumas != otherGato.tienePlumas
+				|| !this.nombre.equals(otherGato.nombre)){
 			return false;
 		} 
-		
-		if(this.tienePlumas != otherGato.tienePlumas) {
-			return false;
-		}
-		
-		if(!this.nombre.equals(otherGato.nombre)) {
-			return false;
-		}
-		
-		if(this.nombreDuenyo == null) {
-			if(otherGato.nombreDuenyo != null) {
+			
+		if(this.nombreDuenyo == null && otherGato.nombreDuenyo != null) {
 				return false;
-			}
 		} else {
 			if(otherGato.nombreDuenyo == null) {
 				return false;
 			}
 			return this.nombreDuenyo.equals(otherGato.nombreDuenyo);
 		}
-		return true;
 	}
 }
