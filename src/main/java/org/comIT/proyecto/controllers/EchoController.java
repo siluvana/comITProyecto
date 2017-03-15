@@ -10,7 +10,7 @@ public class EchoController {
 
 	@GET
 	@Produces("text/plain")
-	public String echo(@QueryParam("m") String message) {
-		return "echo: " + message;
+	public String echo(@QueryParam("m") String message, @QueryParam("v") String variable2) {
+		return "echo: " + message + variable2;
 	}
 }
