@@ -3,16 +3,26 @@
   <meta charset="UTF-8">
 	<!-- archivos js que serán usados -->
 	<script type="text/javascript" src="../js/guarderiaAnimales.js" ></script>
-	
+	<link rel="stylesheet" href="../css/comunidadIT.css" />
 </head>
 <body>
-
+<select onchange="datosDuenio()">
+	<option value="GET">GET</option>
+	<option value="POST">POST</option>
+</select><br>
+<br>
+<label>Nombre de la mascota</label><br>
 <input type="text" id="nombreAnimal"><br>
-
+<br>
+<div id="datosDuenio" class="ocultar">
+	<label>Nombre del dueño</label><br>
+	<input type="text"><br>
+</div>
+<br>
 <input type="button" value="agregar perro" onclick="nuevoPerro()">
 <input type="button" value="agregar gato" onclick="nuevoGato()">
-<input type="button" value="agregar gallo" onclick="nuevoGallo()">
-
+<input type="button" value="agregar gallo" onclick="nuevoGallo()"><br>
+<br>
 <div id="sonidosAnimales">
 </div>
 </body>
