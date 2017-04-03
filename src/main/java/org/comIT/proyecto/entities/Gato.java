@@ -1,7 +1,11 @@
 package org.comIT.proyecto.entities;
-
+	
 public class Gato extends Animal {
 
+	public Gato() {
+		tienePlumas = false;
+		cantidadPatas = 4;
+	}
 	public Gato(String nombre) {
 		this.cantidadPatas = 4;
 		this.tienePlumas = false;
@@ -12,7 +16,7 @@ public class Gato extends Animal {
 	public String emitirSonido() {
 		String sonido = nombre + " dice Miau.";
 		if(this.getDuenyo() != null) {
-			sonido += " Mi dueÃ±o se llama " + this.getDuenyo().getName();
+			sonido += " Mi dueño se llama " + this.getDuenyo();
 		}
 		return sonido;
 	}

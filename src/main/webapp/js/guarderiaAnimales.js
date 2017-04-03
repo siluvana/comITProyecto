@@ -29,7 +29,8 @@ function endpointAnimal(nombreEndpoint) {
 		if (request.readyState == 4 && request.status == 200) { //chequeamos que ya tengamos el response y que el código del status sea 200
 		    //acá escribimos el código de lo que queremos hacer con el resultado del request.
 		   console.log(request.responseText);
-		   agregarSonidoDeAnimal(request.responseText);
+		   var sonidoBackend = request.responseText;
+		   agregarSonidoDeAnimal(sonidoBackend);
 		}
 	} 
 	
@@ -39,7 +40,7 @@ function endpointAnimal(nombreEndpoint) {
 	var getPostSelect = document.getElementsByTagName("select")[0];
 	if(getPostSelect.value=="GET") {
 		//get
-		request.open("GET", endpointCompleto , true); //concatenamos el ws al nombre del endpoint que recibimos
+		request.open("DELETE", endpointCompleto , true); //concatenamos el ws al nombre del endpoint que recibimos
 		request.send(null); //mandamos el cuerpo del mensaje
 		
 	} else {
@@ -50,8 +51,9 @@ function endpointAnimal(nombreEndpoint) {
 		} 
 		//post
 		request.open("POST", endpointCompleto , true); //concatenamos el ws al nombre del endpoint que recibimos
-		request.setRequestHeader("Content-Type", "application/json");
-		request.send(JSON.stringify({name: nombreDuenio})); //mandamos el cuerpo del mensaje		
+//		request.setRequestHeader("Content-Type", "application/json");
+//		request.send(JSON.stringify({name: nombreDuenio; id: 5})); //mandamos el cuerpo del mensaje		
+		request.send(nombreDuenio);
 	}
 }
 
@@ -90,7 +92,7 @@ function datosDuenio() {
 }
 
 function agregarSonidoDeAnimal(sonido) {
-	var divSonidos = document.getElementById("sonidosAnimales");	
+	var divSonidos = document.getElementById("sonidosAnimales");
 	var nuevoSonido = document.createElement("div");
 	var textoNodo = document.createTextNode(sonido);
 	nuevoSonido.appendChild(textoNodo);

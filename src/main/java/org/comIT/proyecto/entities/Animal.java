@@ -5,13 +5,13 @@ public abstract class Animal {
 	protected String nombre;
 	protected int cantidadPatas;
 	protected boolean tienePlumas;
-	protected User duenyo;
+	protected String duenyo;
 
-	public User getDuenyo() {
+	public String getDuenyo() {
 		return duenyo;
 	}
 
-	public void setDuenyo(User duenyo) {
+	public void setDuenyo(String duenyo) {
 		this.duenyo = duenyo;
 	}
 
@@ -25,7 +25,7 @@ public abstract class Animal {
 		}
 	}
 	
-	public boolean isTienePlumas() {
+	public final boolean isTienePlumas() {
 		return tienePlumas;
 	}
 	
