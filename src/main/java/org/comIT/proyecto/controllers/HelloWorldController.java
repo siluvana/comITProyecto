@@ -8,10 +8,10 @@ import javax.ws.rs.Path;
 import javax.ws.rs.Produces;
 import javax.ws.rs.core.MediaType;
 
-import org.comIT.proyecto.entities.Animal;
-import org.comIT.proyecto.entities.Gallo;
-import org.comIT.proyecto.entities.Gato;
-import org.comIT.proyecto.entities.Perro;
+import org.comIT.proyecto.entities.animales.Animal;
+import org.comIT.proyecto.entities.animales.Gallo;
+import org.comIT.proyecto.entities.animales.Gato;
+import org.comIT.proyecto.entities.animales.Perro;
 
 @Path("hello")
 public class HelloWorldController {

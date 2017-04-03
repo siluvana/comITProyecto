@@ -13,6 +13,28 @@ function nuevoGallo() {
 	endpointAnimal("gallo");
 }
 
+function getMascota() {
+	var idMascota = tomarIdMascota();
+	if(idMascota == null) {
+		alert("ingresar el id de la mascota");
+		return;
+	}
+	var endpointCompleto = "/comITProyecto/ws/guarderia/animal/"+idMascota;
+	
+	var request = new XMLHttpRequest(); 
+	request.open("GET", endpointCompleto , true);
+	request.send(null);
+	request.onreadystatechange = function() { //le asignamos la función al evento on ready state change
+		//readyState 4: el request terminó y la respuesta está disponible.
+		//status 200: salió todo bien
+		if (request.readyState == 4 && request.status == 200) { //chequeamos que ya tengamos el response y que el código del status sea 200
+		   console.log(request.responseText);
+		   agregarSonidoDeAnimal(request.responseText);
+		}
+	} 
+	
+}
+
 //recibimos por parámetro el nombre del endpoint al que vamos a llamar.
 function endpointAnimal(nombreEndpoint) {
 	console.log("llegamos a endpointAnimal con parámetro " + nombreEndpoint);
@@ -66,8 +88,17 @@ function tomarNombreDuenio() {
 	return nombre;
 }
 
+function tomarIdMascota() {
+	return tomarValorTextfieldPorIdOrNull("idMascota");
+}
+
+
 function tomarNombreAnimal() {
-	var nombre = document.getElementById("nombreAnimal").value;
+	return tomarValorTextfieldPorIdOrNull("nombreAnimal");
+}
+
+function tomarValorTextfieldPorIdOrNull(elementId) {
+	var nombre = document.getElementById(elementId).value;
 	if(nombre.length == 0) {
 		return null
 	} 
