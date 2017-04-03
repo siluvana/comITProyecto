@@ -5,14 +5,14 @@ public abstract class Animal {
 	protected String nombre;
 	protected int cantidadPatas;
 	protected boolean tienePlumas;
-	protected String nombreDuenyo;
+	protected User duenyo;
 
-	public String getNombreDuenyo() {
-		return nombreDuenyo;
+	public User getDuenyo() {
+		return duenyo;
 	}
 
-	public void setNombreDuenyo(String nombreDuenyo) {
-		this.nombreDuenyo = nombreDuenyo;
+	public void setDuenyo(User duenyo) {
+		this.duenyo = duenyo;
 	}
 
 	public int getCantidadPatas() {

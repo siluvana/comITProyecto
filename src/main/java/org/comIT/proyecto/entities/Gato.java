@@ -10,7 +10,11 @@ public class Gato extends Animal {
 
 	@Override
 	public String emitirSonido() {
-		return nombre + " dice Miau.";
+		String sonido = nombre + " dice Miau.";
+		if(this.getDuenyo() != null) {
+			sonido += " Mi dueño se llama " + this.getDuenyo().getName();
+		}
+		return sonido;
 	}
 	
 	@Override
@@ -26,28 +30,19 @@ public class Gato extends Animal {
 	
 		Gato otherGato = (Gato)obj;
 
-		if(this.cantidadPatas != otherGato.cantidadPatas){
+		if(this.cantidadPatas != otherGato.cantidadPatas
+				|| this.tienePlumas != otherGato.tienePlumas
+				|| !this.nombre.equals(otherGato.nombre)){
 			return false;
 		} 
-		
-		if(this.tienePlumas != otherGato.tienePlumas) {
-			return false;
-		}
-		
-		if(!this.nombre.equals(otherGato.nombre)) {
-			return false;
-		}
-		
-		if(this.nombreDuenyo == null) {
-			if(otherGato.nombreDuenyo != null) {
+			
+		if(this.duenyo == null && otherGato.duenyo != null) {
 				return false;
-			}
 		} else {
-			if(otherGato.nombreDuenyo == null) {
+			if(otherGato.duenyo == null) {
 				return false;
 			}
-			return this.nombreDuenyo.equals(otherGato.nombreDuenyo);
+			return this.duenyo.equals(otherGato.duenyo);
 		}
-		return true;
 	}
 }
