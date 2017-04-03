@@ -1,18 +1,21 @@
-package org.comIT.proyecto.entities;
+package org.comIT.proyecto.entities.animales;
+
+import org.comIT.proyecto.entities.User;
 
 public abstract class Animal {
 	
 	protected String nombre;
 	protected int cantidadPatas;
 	protected boolean tienePlumas;
-	protected User duenyo;
+	protected User duenio;
 
-	public User getDuenyo() {
-		return duenyo;
+
+	public User getDuenio() {
+		return duenio;
 	}
 
-	public void setDuenyo(User duenyo) {
-		this.duenyo = duenyo;
+	public void setDuenio(User duenio) {
+		this.duenio = duenio;
 	}
 
 	public int getCantidadPatas() {
@@ -35,4 +38,5 @@ public abstract class Animal {
 
 	public abstract String emitirSonido();
 
+	public abstract TipoAnimal getTipoAnimal();
 }

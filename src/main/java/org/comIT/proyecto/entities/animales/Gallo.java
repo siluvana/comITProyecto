@@ -1,4 +1,4 @@
-package org.comIT.proyecto.entities;
+package org.comIT.proyecto.entities.animales;
 
 public class Gallo extends Animal {
 		
@@ -10,7 +10,12 @@ public class Gallo extends Animal {
 	
 	@Override
 	public String emitirSonido() {
-		return nombre + " dice Cocorocó.";
+		return nombre + " dice CocorocÃ³.";
+	}
+
+	@Override
+	public TipoAnimal getTipoAnimal() {
+		return TipoAnimal.GALLO;
 	}
 
 }

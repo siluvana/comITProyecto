@@ -1,4 +1,4 @@
-package org.comIT.proyecto.entities;
+package org.comIT.proyecto.entities.animales;
 
 public class Gato extends Animal {
 
@@ -11,8 +11,8 @@ public class Gato extends Animal {
 	@Override
 	public String emitirSonido() {
 		String sonido = nombre + " dice Miau.";
-		if(this.getDuenyo() != null) {
-			sonido += " Mi dueño se llama " + this.getDuenyo().getName();
+		if(this.getDuenio() != null) {
+			sonido += " Mi dueño se llama " + this.getDuenio().getName();
 		}
 		return sonido;
 	}
@@ -36,13 +36,18 @@ public class Gato extends Animal {
 			return false;
 		} 
 			
-		if(this.duenyo == null && otherGato.duenyo != null) {
+		if(this.duenio == null && otherGato.duenio != null) {
 				return false;
 		} else {
-			if(otherGato.duenyo == null) {
+			if(otherGato.duenio == null) {
 				return false;
 			}
-			return this.duenyo.equals(otherGato.duenyo);
+			return this.duenio.equals(otherGato.duenio);
 		}
+	}
+
+	@Override
+	public TipoAnimal getTipoAnimal() {
+		return TipoAnimal.GATO;
 	}
 }
